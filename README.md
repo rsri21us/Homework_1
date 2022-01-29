@@ -1,5 +1,13 @@
 # Homework_1
 To implement a C program that uses structures, dynamic memory allocation, and  string functions provided by the C library.
+
+#description
+The goal of this project is to implement a C program that a variable number of 
+keywords as command line argument, reads text from the standard input stream, 
+searches the keywords in the input stream, and when the end of input stream is 
+reached prints the number of times each keyword appears in the input text. 
+
+
 # Getting started
 These instructions will give you a copy of the project up and running on your local machine for development and testing purposes.
 #prerequisites
@@ -14,6 +22,21 @@ A step by step series of examples that tell you how to get a development environ
 3. save the file with .c extension.
 
 #Running the tests
+
+functionality of the program:
+
+Program takes the command line arguments as well as standard input stream as input. command line arguments contain the key words, and standard input contains a sample text. This program uses the updateKeywordCount to update the count. 
+
+In this program, we have methods such as displayKeywordCount, updateKeywordCount.
+
+updateKeywordCount is used to update the count of each keyword while parallelly comparing in the input stream in command line. 
+
+displayKeywordCount takes a struct, and the number of arguments
+It displays the keywords and the count of each keyword. 
+
+In the int main(), these methods are called at the right time. 
+
+
 In general a c program is executed in this way:
 1. To compile the file, type the command 'gcc filename.c'
 2. To run the file, type './a.out'
