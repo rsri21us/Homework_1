@@ -61,7 +61,4 @@ Sri Vastava RNV
 
 I thank my TA's and Dr. Mahmut Unan for helping me learn everyday. 
 
-# references
-
-https://www.tutorialspoint.com/c_standard_library/c_function_strstr.htm
 
